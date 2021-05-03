@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		E127A4A7263EE33A0067C2D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127A4A6263EE33A0067C2D0 /* AppDelegate.swift */; };
 		E127A4A9263EE33A0067C2D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127A4A8263EE33A0067C2D0 /* SceneDelegate.swift */; };
-		E127A4AB263EE33A0067C2D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127A4AA263EE33A0067C2D0 /* ViewController.swift */; };
+		E127A4AB263EE33A0067C2D0 /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127A4AA263EE33A0067C2D0 /* SwitchingViewController.swift */; };
 		E127A4AE263EE33A0067C2D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E127A4AC263EE33A0067C2D0 /* Main.storyboard */; };
 		E127A4B0263EE33B0067C2D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E127A4AF263EE33B0067C2D0 /* Assets.xcassets */; };
 		E127A4B3263EE33B0067C2D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E127A4B1263EE33B0067C2D0 /* LaunchScreen.storyboard */; };
 		E127A4BE263EE33B0067C2D0 /* ikidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127A4BD263EE33B0067C2D0 /* ikidTests.swift */; };
 		E127A4C9263EE33B0067C2D0 /* ikidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127A4C8263EE33B0067C2D0 /* ikidUITests.swift */; };
+		E127A4D7263EEE8C0067C2D0 /* GoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127A4D6263EEE8C0067C2D0 /* GoodViewController.swift */; };
+		E127A4D9263EEE990067C2D0 /* PunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127A4D8263EEE990067C2D0 /* PunViewController.swift */; };
+		E127A4DB263EEEA90067C2D0 /* DadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127A4DA263EEEA90067C2D0 /* DadViewController.swift */; };
+		E127A4DD263F3BA10067C2D0 /* PunNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127A4DC263F3BA10067C2D0 /* PunNextViewController.swift */; };
+		E127A4DF263F4DFC0067C2D0 /* PunLandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127A4DE263F4DFC0067C2D0 /* PunLandingViewController.swift */; };
+		E127A4E1263F4FC90067C2D0 /* GoodLandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127A4E0263F4FC90067C2D0 /* GoodLandingViewController.swift */; };
+		E127A4E3263F51110067C2D0 /* GoodNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127A4E2263F51110067C2D0 /* GoodNextViewController.swift */; };
+		E127A4E5263F51A40067C2D0 /* DadLandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127A4E4263F51A40067C2D0 /* DadLandingViewController.swift */; };
+		E127A4E7263F523E0067C2D0 /* DadNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127A4E6263F523E0067C2D0 /* DadNextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +47,7 @@
 		E127A4A3263EE33A0067C2D0 /* ikid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ikid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E127A4A6263EE33A0067C2D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E127A4A8263EE33A0067C2D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E127A4AA263EE33A0067C2D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E127A4AA263EE33A0067C2D0 /* SwitchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewController.swift; sourceTree = "<group>"; };
 		E127A4AD263EE33A0067C2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E127A4AF263EE33B0067C2D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E127A4B2263EE33B0067C2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,15 @@
 		E127A4C4263EE33B0067C2D0 /* ikidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ikidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E127A4C8263EE33B0067C2D0 /* ikidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikidUITests.swift; sourceTree = "<group>"; };
 		E127A4CA263EE33B0067C2D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E127A4D6263EEE8C0067C2D0 /* GoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodViewController.swift; sourceTree = "<group>"; };
+		E127A4D8263EEE990067C2D0 /* PunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunViewController.swift; sourceTree = "<group>"; };
+		E127A4DA263EEEA90067C2D0 /* DadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadViewController.swift; sourceTree = "<group>"; };
+		E127A4DC263F3BA10067C2D0 /* PunNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunNextViewController.swift; sourceTree = "<group>"; };
+		E127A4DE263F4DFC0067C2D0 /* PunLandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunLandingViewController.swift; sourceTree = "<group>"; };
+		E127A4E0263F4FC90067C2D0 /* GoodLandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodLandingViewController.swift; sourceTree = "<group>"; };
+		E127A4E2263F51110067C2D0 /* GoodNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNextViewController.swift; sourceTree = "<group>"; };
+		E127A4E4263F51A40067C2D0 /* DadLandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadLandingViewController.swift; sourceTree = "<group>"; };
+		E127A4E6263F523E0067C2D0 /* DadNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadNextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +119,16 @@
 			children = (
 				E127A4A6263EE33A0067C2D0 /* AppDelegate.swift */,
 				E127A4A8263EE33A0067C2D0 /* SceneDelegate.swift */,
-				E127A4AA263EE33A0067C2D0 /* ViewController.swift */,
+				E127A4AA263EE33A0067C2D0 /* SwitchingViewController.swift */,
+				E127A4D6263EEE8C0067C2D0 /* GoodViewController.swift */,
+				E127A4D8263EEE990067C2D0 /* PunViewController.swift */,
+				E127A4DC263F3BA10067C2D0 /* PunNextViewController.swift */,
+				E127A4DE263F4DFC0067C2D0 /* PunLandingViewController.swift */,
+				E127A4E0263F4FC90067C2D0 /* GoodLandingViewController.swift */,
+				E127A4E2263F51110067C2D0 /* GoodNextViewController.swift */,
+				E127A4DA263EEEA90067C2D0 /* DadViewController.swift */,
+				E127A4E6263F523E0067C2D0 /* DadNextViewController.swift */,
+				E127A4E4263F51A40067C2D0 /* DadLandingViewController.swift */,
 				E127A4AC263EE33A0067C2D0 /* Main.storyboard */,
 				E127A4AF263EE33B0067C2D0 /* Assets.xcassets */,
 				E127A4B1263EE33B0067C2D0 /* LaunchScreen.storyboard */,
@@ -258,9 +285,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E127A4AB263EE33A0067C2D0 /* ViewController.swift in Sources */,
+				E127A4E1263F4FC90067C2D0 /* GoodLandingViewController.swift in Sources */,
+				E127A4E7263F523E0067C2D0 /* DadNextViewController.swift in Sources */,
+				E127A4DF263F4DFC0067C2D0 /* PunLandingViewController.swift in Sources */,
+				E127A4AB263EE33A0067C2D0 /* SwitchingViewController.swift in Sources */,
+				E127A4E5263F51A40067C2D0 /* DadLandingViewController.swift in Sources */,
+				E127A4D9263EEE990067C2D0 /* PunViewController.swift in Sources */,
 				E127A4A7263EE33A0067C2D0 /* AppDelegate.swift in Sources */,
+				E127A4DD263F3BA10067C2D0 /* PunNextViewController.swift in Sources */,
+				E127A4E3263F51110067C2D0 /* GoodNextViewController.swift in Sources */,
 				E127A4A9263EE33A0067C2D0 /* SceneDelegate.swift in Sources */,
+				E127A4DB263EEEA90067C2D0 /* DadViewController.swift in Sources */,
+				E127A4D7263EEE8C0067C2D0 /* GoodViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
